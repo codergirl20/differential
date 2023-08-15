@@ -13,6 +13,6 @@ else{
     var d=num*pow+var1+"^"+(pow-1)
     // console.log(d)
 }
-var result=document.getElementById("re").innerHTML=d
+var result=document.getElementById("re").value=d
 console.log(result)
 }

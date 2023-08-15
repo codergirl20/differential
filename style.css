@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 nav{
     display: flex;
@@ -16,7 +16,8 @@ h1{
     font-size: 30px;
 
 }label{
-    font-size: 19px;
+    font-size: 23px;
+    font-weight: bold;
 }
 .container{
     display: flex;
@@ -34,10 +35,13 @@ main{
 }
 input{
     width: 100%;
+    font-size: 16px;
+    font-weight: 400;
     padding-left: 50px;
     height: 40px;
-    border: 2px solid black;
+    border: 2px solid rgb(25, 13, 69);
     margin-bottom: 30px;
+    color:black
 }
 button{
     background-color: black;
@@ -45,6 +49,7 @@ button{
     width: 80px;
     height: 50px;
     border-radius:5px ;
+    font-size: 20px;
 }
 #re{
     width: 180px;
